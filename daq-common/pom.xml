@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>daq</artifactId>
+        <groupId>org.daq</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>daq-common-bom</module>
+        <module>daq-common-social</module>
+        <module>daq-common-core</module>
+        <module>daq-common-doc</module>
+        <module>daq-common-excel</module>
+        <module>daq-common-idempotent</module>
+        <module>daq-common-job</module>
+        <module>daq-common-log</module>
+        <module>daq-common-mail</module>
+        <module>daq-common-mybatis</module>
+        <module>daq-common-oss</module>
+        <module>daq-common-ratelimiter</module>
+        <module>daq-common-redis</module>
+        <module>daq-common-satoken</module>
+        <module>daq-common-security</module>
+        <module>daq-common-sms</module>
+        <module>daq-common-web</module>
+        <module>daq-common-translation</module>
+        <module>daq-common-sensitive</module>
+        <module>daq-common-json</module>
+        <module>daq-common-encrypt</module>
+        <module>daq-common-tenant</module>
+        <module>daq-common-websocket</module>
+        <module>daq-common-sse</module>
+    </modules>
+
+    <artifactId>daq-common</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        common 通用模块
+    </description>
+
+</project>
