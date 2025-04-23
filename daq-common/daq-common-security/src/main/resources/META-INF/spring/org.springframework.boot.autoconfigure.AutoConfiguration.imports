@@ -1,0 +1,2 @@
+org.daq.common.security.handler.AllUrlHandler
+org.daq.common.security.config.SecurityConfig

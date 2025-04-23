@@ -1,0 +1,5 @@
+org.daq.common.web.config.CaptchaConfig
+org.daq.common.web.config.FilterConfig
+org.daq.common.web.config.I18nConfig
+org.daq.common.web.config.ResourcesConfig
+org.daq.common.web.config.UndertowConfig
